@@ -1,0 +1,758 @@
+{
+  "mapped": [
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "sourceKey": "encounter-pacing",
+      "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+      "canonical": "encounter-pacing",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "players",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "players",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "teams",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "teams",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "matches",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "matches",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "tournaments",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "tournaments",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "training",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "training",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/performance",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "performance",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/strategy",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "strategy",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/scouting",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "scouting",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/training-plan",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "training-plan",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/prediction",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/highlight-clip-suggest",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "highlight-clip-suggest",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/wellness-log",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "wellness-log",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/tournament-brief",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "tournament-brief",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/meta-analysis",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "meta-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/injury-risk-assess",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "injury-risk-assess",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/sponsorship-match",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "sponsorship-match",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/live-stream-status",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "live-stream-status",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "ai/betting-insights",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "betting-insights",
+      "kind": "route"
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "sourceKey": "scrim-tilt-recovery",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "canonical": "scrim-tilt-recovery",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "collections",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "collections",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "asset-collab",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "asset-collab",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "sprite-atlas-budget",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "sprite-atlas-budget",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-agentic-asset-pipeline-turning-a-game",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "agentic-asset-pipeline-turning-a-game",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-style-consistency-enforcer-flagging-outl",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "style-consistency-enforcer-flagging-outl",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-performance-optimization-advisor-analyzi",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "performance-optimization-advisor-analyzi",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-marketplace-licensing-layer-with-image-s",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "marketplace-licensing-layer-with-image-s",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-animation-retargeting-ai-reusing-animati",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "animation-retargeting-ai-reusing-animati",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "cf-unityunreal-export-plugin-with-correct-p",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "unityunreal-export-plugin-with-correct-p",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-style-transfer-endpoint-apply-art",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "style-transfer-endpoint-apply-art",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-animation-generation-endpoint-rigging",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "animation-generation-endpoint-rigging",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-texture-refinement-endpoint",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "texture-refinement-endpoint",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-scene-composition-endpoint-multi-asse",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "scene-composition-endpoint-multi-asse",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-prompt-improvement-helper",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "prompt-improvement-helper",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-marketplace-for-selling-assets",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "marketplace-for-selling-assets",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-webhook-integration-for-engine-sync",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "webhook-integration-for-engine-sync",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-game-engine-export-unity-unreal",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "game-engine-export-unity-unreal",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-payment-royalty-handling",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "payment-royalty-handling",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-public-sharing-portfolio-pages",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "public-sharing-portfolio-pages",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-file-upload-pipeline-detected-beyond",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "file-upload-pipeline-detected-beyond",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "sourceKey": "gap-no-real-time-collaboration",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "canonical": "real-time-collaboration",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/playtests",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "playtests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/difficulty",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "difficulty",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/economy",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "economy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/exploits",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "exploits",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/progression",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "progression",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/balance",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "balance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/meta",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "meta-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/power-creep-sentinel",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "power-creep-sentinel",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/sentiment",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "sentiment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/configurations",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "configurations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/player-profiles",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "player-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/scenarios",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "scenarios",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/balance-rules",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "balance-rules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/game-items",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "game-items",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/sessions",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "sessions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "balance-recommendations-view",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "balance-recommendations-view",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "ai-predictions",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "predictions",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "ab-patches",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "ab-patches",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-agentic-playtesting-bots-that-play-auton",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "agentic-playtesting-bots-that-play-auton",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-esports-meta-predictor-recommending-pree",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "esports-meta-predictor-recommending-pree",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-cohort-aware-balance-changes-targeting-h",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "cohort-aware-balance-changes-targeting-h",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-rollback-analysis-tracking-how-balance-c",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "rollback-analysis-tracking-how-balance-c",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-cross-game-balance-learning-from-dotalea",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "cross-game-balance-learning-from-dotalea",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "cf-voice-video-sentiment-from-twitchyoutube",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "voice-video-sentiment-from-twitchyoutube",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-win-rate-predictor-for-post",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "win-rate-predictor-for-post",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-player-retention-intervention-ai",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "player-retention-intervention-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-balance-simulation-monte-carlo-endpoi",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "balance-simulation-monte-carlo-endpoi",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-automated-patch-note-generator",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "automated-patch-note-generator",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-webhook-dispatchers-for-live-patch",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "webhook-dispatchers-for-live-patch",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-surveyfocus-group-collection-beyond-r",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "surveyfocus-group-collection-beyond-r",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-public-patch-notes-site",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "public-patch-notes-site",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-real-time-websocket-telemetry-streami",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "real-time-websocket-telemetry-streami",
+      "kind": "route"
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "sourceKey": "gap-no-multi-tenant-studio-isolation",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "canonical": "multi-tenant-studio-isolation",
+      "kind": "route"
+    },
+    {
+      "project": "tetris",
+      "sourceKey": "tetris",
+      "source": "/Volumes/external/projects/tetris",
+      "canonical": "tetris",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "tetris-game",
+      "sourceKey": "tetris-game",
+      "source": "/Volumes/external/projects/tetris-game",
+      "canonical": "tetris-game",
+      "kind": "source-workflow"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIBoardGameTTRPGGameMaster",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "batch03",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/players/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/teams/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/matches/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/tournaments/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "/training/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIEsportsPerformanceAnalyzer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "/category/:name",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIGameAssetGenerator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameAssetGenerator",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGameBalancingPlaytestingAgent",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "tetris",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "tetris-game",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

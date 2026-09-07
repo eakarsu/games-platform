@@ -1,0 +1,4008 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "metric_type",
+        "label": "Metric Type",
+        "type": "select",
+        "options": [
+          "engagement",
+          "retention",
+          "revenue",
+          "monetization",
+          "technical",
+          "experience",
+          "competitive",
+          "social",
+          "quality",
+          "viral"
+        ]
+      },
+      {
+        "name": "metric_value",
+        "label": "Current Value",
+        "type": "number"
+      },
+      {
+        "name": "previous_value",
+        "label": "Previous Value",
+        "type": "number"
+      },
+      {
+        "name": "change_pct",
+        "label": "Change %",
+        "type": "number"
+      },
+      {
+        "name": "time_period",
+        "label": "Time Period",
+        "type": "select",
+        "options": [
+          "daily",
+          "weekly",
+          "monthly",
+          "quarterly"
+        ]
+      },
+      {
+        "name": "trend",
+        "label": "Trend",
+        "type": "select",
+        "options": [
+          "up",
+          "down",
+          "stable"
+        ]
+      },
+      {
+        "name": "threshold_alert",
+        "label": "Alert",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "report_type",
+        "label": "Report Type",
+        "type": "select",
+        "options": [
+          "balance",
+          "economy",
+          "security",
+          "retention",
+          "matchmaking",
+          "meta",
+          "onboarding",
+          "competitive",
+          "revenue",
+          "difficulty",
+          "social",
+          "technical",
+          "content",
+          "progression",
+          "quarterly"
+        ]
+      },
+      {
+        "name": "summary",
+        "label": "Summary",
+        "type": "textarea"
+      },
+      {
+        "name": "findings",
+        "label": "Findings",
+        "type": "textarea"
+      },
+      {
+        "name": "recommendations",
+        "label": "Recommendations",
+        "type": "textarea"
+      },
+      {
+        "name": "generated_by",
+        "label": "Generated By",
+        "type": "select",
+        "options": [
+          "AI",
+          "Manual"
+        ]
+      }
+    ],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Analytics Metrics"
+      },
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "encounter-pacing",
+    "title": "Encounter pacing",
+    "group": "Board game ttrpggame master",
+    "description": "Organize encounter pacing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBoardGameTTRPGGameMaster",
+        "path": "encounter-pacing",
+        "source": "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+        "kind": "route",
+        "label": "Encounter pacing"
+      }
+    ],
+    "owner": "AIBoardGameTTRPGGameMaster",
+    "alternatives": [],
+    "path": "/features/encounter-pacing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "players",
+    "title": "Players",
+    "group": "Esports performance analyzer",
+    "description": "Organize players and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "players",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Players"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/players",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "teams",
+    "title": "Teams",
+    "group": "Esports performance analyzer",
+    "description": "Organize teams and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "teams",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Teams"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/teams",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matches",
+    "title": "Matches",
+    "group": "Esports performance analyzer",
+    "description": "Organize matches and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "matches",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Matches"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/matches",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tournaments",
+    "title": "Tournaments",
+    "group": "Esports performance analyzer",
+    "description": "Organize tournaments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "tournaments",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Tournaments"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/tournaments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "training",
+    "title": "Training",
+    "group": "Esports performance analyzer",
+    "description": "Organize training and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "training",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Training"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/training",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "performance",
+    "title": "Performance",
+    "group": "Esports performance analyzer",
+    "description": "Organize performance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/performance",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Performance"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/performance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "strategy",
+    "title": "Strategy",
+    "group": "Esports performance analyzer",
+    "description": "Organize strategy and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/strategy",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Strategy"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/strategy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scouting",
+    "title": "Scouting",
+    "group": "Esports performance analyzer",
+    "description": "Organize scouting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/scouting",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Scouting"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/scouting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "training-plan",
+    "title": "Training plan",
+    "group": "Esports performance analyzer",
+    "description": "Organize training plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/training-plan",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Training plan"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/training-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prediction",
+    "title": "Prediction",
+    "group": "Esports performance analyzer",
+    "description": "Organize prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/prediction",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Prediction"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "highlight-clip-suggest",
+    "title": "Highlight clip suggest",
+    "group": "Esports performance analyzer",
+    "description": "Organize highlight clip suggest and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/highlight-clip-suggest",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Highlight clip suggest"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/highlight-clip-suggest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wellness-log",
+    "title": "Wellness log",
+    "group": "Esports performance analyzer",
+    "description": "Organize wellness log and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/wellness-log",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Wellness log"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/wellness-log",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tournament-brief",
+    "title": "Tournament brief",
+    "group": "Esports performance analyzer",
+    "description": "Organize tournament brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/tournament-brief",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Tournament brief"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/tournament-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meta-analysis",
+    "title": "Meta analysis",
+    "group": "Esports performance analyzer",
+    "description": "Organize meta analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "analysis_type",
+        "label": "Analysis Type",
+        "type": "select",
+        "options": [
+          "seasonal",
+          "patch",
+          "tier-list",
+          "class-balance",
+          "strategy",
+          "efficiency",
+          "build",
+          "loadout",
+          "synergy",
+          "economy",
+          "progression",
+          "trend"
+        ]
+      },
+      {
+        "name": "dominant_strategy",
+        "label": "Dominant Strategy",
+        "type": "text"
+      },
+      {
+        "name": "meta_diversity_score",
+        "label": "Meta Diversity Score",
+        "type": "number"
+      },
+      {
+        "name": "top_pick_rate",
+        "label": "Top Pick Rate %",
+        "type": "number"
+      },
+      {
+        "name": "counter_play_score",
+        "label": "Counter Play Score",
+        "type": "number"
+      },
+      {
+        "name": "staleness_index",
+        "label": "Staleness Index",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/meta-analysis",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Meta analysis"
+      },
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/meta",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Meta Analysis"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/meta-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "injury-risk-assess",
+    "title": "Injury risk assess",
+    "group": "Esports performance analyzer",
+    "description": "Organize injury risk assess and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/injury-risk-assess",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Injury risk assess"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/injury-risk-assess",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sponsorship-match",
+    "title": "Sponsorship match",
+    "group": "Esports performance analyzer",
+    "description": "Organize sponsorship match and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/sponsorship-match",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Sponsorship match"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/sponsorship-match",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "live-stream-status",
+    "title": "Live stream status",
+    "group": "Esports performance analyzer",
+    "description": "Organize live stream status and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/live-stream-status",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Live stream status"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/live-stream-status",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "betting-insights",
+    "title": "Betting insights",
+    "group": "Esports performance analyzer",
+    "description": "Organize betting insights and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "ai/betting-insights",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Betting insights"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/betting-insights",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scrim-tilt-recovery",
+    "title": "Scrim tilt recovery",
+    "group": "Esports performance analyzer",
+    "description": "Organize scrim tilt recovery and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIEsportsPerformanceAnalyzer",
+        "path": "scrim-tilt-recovery",
+        "source": "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+        "kind": "route",
+        "label": "Scrim tilt recovery"
+      }
+    ],
+    "owner": "AIEsportsPerformanceAnalyzer",
+    "alternatives": [],
+    "path": "/features/scrim-tilt-recovery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "collections",
+    "title": "Collections",
+    "group": "Game asset generator",
+    "description": "Organize collections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "collections",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "Collections"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/collections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "asset-collab",
+    "title": "Asset collab",
+    "group": "Game asset generator",
+    "description": "Organize asset collab and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "asset-collab",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "Asset collab"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/asset-collab",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sprite-atlas-budget",
+    "title": "Sprite atlas budget",
+    "group": "Game asset generator",
+    "description": "Organize sprite atlas budget and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "sprite-atlas-budget",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "Sprite atlas budget"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/sprite-atlas-budget",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-asset-pipeline-turning-a-game",
+    "title": "agentic asset pipeline turning a game",
+    "group": "Game asset generator",
+    "description": "Organize agentic asset pipeline turning a game and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-agentic-asset-pipeline-turning-a-game",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "agentic asset pipeline turning a game"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/agentic-asset-pipeline-turning-a-game",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "style-consistency-enforcer-flagging-outl",
+    "title": "style consistency enforcer flagging outl",
+    "group": "Game asset generator",
+    "description": "Organize style consistency enforcer flagging outl and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-style-consistency-enforcer-flagging-outl",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "style consistency enforcer flagging outl"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/style-consistency-enforcer-flagging-outl",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "performance-optimization-advisor-analyzi",
+    "title": "performance optimization advisor analyzi",
+    "group": "Game asset generator",
+    "description": "Organize performance optimization advisor analyzi and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-performance-optimization-advisor-analyzi",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "performance optimization advisor analyzi"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/performance-optimization-advisor-analyzi",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marketplace-licensing-layer-with-image-s",
+    "title": "marketplace licensing layer with image s",
+    "group": "Game asset generator",
+    "description": "Organize marketplace licensing layer with image s and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-marketplace-licensing-layer-with-image-s",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "marketplace licensing layer with image s"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/marketplace-licensing-layer-with-image-s",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "animation-retargeting-ai-reusing-animati",
+    "title": "animation retargeting ai reusing animati",
+    "group": "Game asset generator",
+    "description": "Organize animation retargeting ai reusing animati and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-animation-retargeting-ai-reusing-animati",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "animation retargeting ai reusing animati"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/animation-retargeting-ai-reusing-animati",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "unityunreal-export-plugin-with-correct-p",
+    "title": "unityunreal export plugin with correct p",
+    "group": "Game asset generator",
+    "description": "Organize unityunreal export plugin with correct p and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "cf-unityunreal-export-plugin-with-correct-p",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "unityunreal export plugin with correct p"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/unityunreal-export-plugin-with-correct-p",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "style-transfer-endpoint-apply-art",
+    "title": "style transfer endpoint apply art",
+    "group": "Game asset generator",
+    "description": "Organize style transfer endpoint apply art and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-style-transfer-endpoint-apply-art",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "style transfer endpoint apply art"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/style-transfer-endpoint-apply-art",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "animation-generation-endpoint-rigging",
+    "title": "animation generation endpoint rigging",
+    "group": "Game asset generator",
+    "description": "Organize animation generation endpoint rigging and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-animation-generation-endpoint-rigging",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "animation generation endpoint rigging"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/animation-generation-endpoint-rigging",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "texture-refinement-endpoint",
+    "title": "texture refinement endpoint",
+    "group": "Game asset generator",
+    "description": "Organize texture refinement endpoint and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-texture-refinement-endpoint",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "texture refinement endpoint"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/texture-refinement-endpoint",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scene-composition-endpoint-multi-asse",
+    "title": "scene composition endpoint multi asse",
+    "group": "Game asset generator",
+    "description": "Organize scene composition endpoint multi asse and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-scene-composition-endpoint-multi-asse",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "scene composition endpoint multi asse"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/scene-composition-endpoint-multi-asse",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prompt-improvement-helper",
+    "title": "prompt improvement helper",
+    "group": "Game asset generator",
+    "description": "Organize prompt improvement helper and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-prompt-improvement-helper",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "prompt improvement helper"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/prompt-improvement-helper",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marketplace-for-selling-assets",
+    "title": "marketplace for selling assets",
+    "group": "Game asset generator",
+    "description": "Organize marketplace for selling assets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-marketplace-for-selling-assets",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "marketplace for selling assets"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/marketplace-for-selling-assets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-integration-for-engine-sync",
+    "title": "webhook integration for engine sync",
+    "group": "Game asset generator",
+    "description": "Prepare webhook integration for engine sync requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-webhook-integration-for-engine-sync",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "webhook integration for engine sync"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/webhook-integration-for-engine-sync",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "game-engine-export-unity-unreal",
+    "title": "game engine export unity unreal",
+    "group": "Game asset generator",
+    "description": "Organize game engine export unity unreal and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-game-engine-export-unity-unreal",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "game engine export unity unreal"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/game-engine-export-unity-unreal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payment-royalty-handling",
+    "title": "payment royalty handling",
+    "group": "Game asset generator",
+    "description": "Organize payment royalty handling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-payment-royalty-handling",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "payment royalty handling"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/payment-royalty-handling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "public-sharing-portfolio-pages",
+    "title": "public sharing portfolio pages",
+    "group": "Game asset generator",
+    "description": "Organize public sharing portfolio pages and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-public-sharing-portfolio-pages",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "public sharing portfolio pages"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/public-sharing-portfolio-pages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "file-upload-pipeline-detected-beyond",
+    "title": "file upload pipeline detected beyond",
+    "group": "Game asset generator",
+    "description": "Organize file upload pipeline detected beyond and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-file-upload-pipeline-detected-beyond",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "file upload pipeline detected beyond"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/file-upload-pipeline-detected-beyond",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-collaboration",
+    "title": "real time collaboration",
+    "group": "Game asset generator",
+    "description": "Organize real time collaboration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameAssetGenerator",
+        "path": "gap-no-real-time-collaboration",
+        "source": "/Volumes/external/projects/AIGameAssetGenerator",
+        "kind": "route",
+        "label": "real time collaboration"
+      }
+    ],
+    "owner": "AIGameAssetGenerator",
+    "alternatives": [],
+    "path": "/features/real-time-collaboration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "playtests",
+    "title": "AI Playtesting",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize ai playtesting and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Session Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "ai_player_count",
+        "label": "AI Player Count",
+        "type": "number"
+      },
+      {
+        "name": "difficulty",
+        "label": "Difficulty",
+        "type": "select",
+        "options": [
+          "easy",
+          "medium",
+          "hard",
+          "extreme"
+        ]
+      },
+      {
+        "name": "duration_minutes",
+        "label": "Duration (min)",
+        "type": "number"
+      },
+      {
+        "name": "avg_completion_rate",
+        "label": "Avg Completion %",
+        "type": "number"
+      },
+      {
+        "name": "avg_score",
+        "label": "Avg Score",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/playtests",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Playtesting"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/playtests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "difficulty",
+    "title": "Difficulty Curves",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize difficulty curves and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "level_range",
+        "label": "Level Range",
+        "type": "text"
+      },
+      {
+        "name": "curve_type",
+        "label": "Curve Type",
+        "type": "select",
+        "options": [
+          "linear",
+          "exponential",
+          "logarithmic",
+          "sigmoid",
+          "stepwise",
+          "polynomial",
+          "flat"
+        ]
+      },
+      {
+        "name": "min_difficulty",
+        "label": "Min Difficulty",
+        "type": "number"
+      },
+      {
+        "name": "max_difficulty",
+        "label": "Max Difficulty",
+        "type": "number"
+      },
+      {
+        "name": "spike_threshold",
+        "label": "Spike Threshold",
+        "type": "number"
+      },
+      {
+        "name": "smoothness_score",
+        "label": "Smoothness Score",
+        "type": "number"
+      },
+      {
+        "name": "player_churn_rate",
+        "label": "Player Churn %",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/difficulty",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Difficulty Curves"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/difficulty",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "economy",
+    "title": "Economy Tuning",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize economy tuning and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "currency_name",
+        "label": "Currency Name",
+        "type": "text"
+      },
+      {
+        "name": "daily_earn_rate",
+        "label": "Daily Earn Rate",
+        "type": "number"
+      },
+      {
+        "name": "daily_spend_rate",
+        "label": "Daily Spend Rate",
+        "type": "number"
+      },
+      {
+        "name": "inflation_rate",
+        "label": "Inflation Rate %",
+        "type": "number"
+      },
+      {
+        "name": "sink_ratio",
+        "label": "Sink Ratio",
+        "type": "number"
+      },
+      {
+        "name": "source_ratio",
+        "label": "Source Ratio",
+        "type": "number"
+      },
+      {
+        "name": "health_score",
+        "label": "Health Score",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/economy",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Economy Tuning"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/economy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exploits",
+    "title": "Exploit Detection",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize exploit detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "exploit_type",
+        "label": "Exploit Type",
+        "type": "select",
+        "options": [
+          "duplication",
+          "movement",
+          "resource",
+          "progression",
+          "combat",
+          "automation",
+          "matchmaking",
+          "economy",
+          "rendering",
+          "security",
+          "payment"
+        ]
+      },
+      {
+        "name": "severity",
+        "label": "Severity (1-10)",
+        "type": "number"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "affected_system",
+        "label": "Affected System",
+        "type": "text"
+      },
+      {
+        "name": "reproduction_steps",
+        "label": "Reproduction Steps",
+        "type": "textarea"
+      },
+      {
+        "name": "mitigation",
+        "label": "Mitigation",
+        "type": "textarea"
+      },
+      {
+        "name": "detected_by",
+        "label": "Detected By",
+        "type": "select",
+        "options": [
+          "AI",
+          "Player Report",
+          "Manual"
+        ]
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/exploits",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Exploit Detection"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/exploits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "progression",
+    "title": "Progression Modeling",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize progression modeling and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "model_type",
+        "label": "Model Type",
+        "type": "select",
+        "options": [
+          "time-based",
+          "skill-based",
+          "social",
+          "content-based",
+          "monetization",
+          "catch-up",
+          "tutorial"
+        ]
+      },
+      {
+        "name": "player_archetype",
+        "label": "Player Archetype",
+        "type": "text"
+      },
+      {
+        "name": "avg_time_to_max",
+        "label": "Avg Time to Max (hrs)",
+        "type": "number"
+      },
+      {
+        "name": "bottleneck_level",
+        "label": "Bottleneck Level",
+        "type": "number"
+      },
+      {
+        "name": "engagement_score",
+        "label": "Engagement Score",
+        "type": "number"
+      },
+      {
+        "name": "retention_rate",
+        "label": "Retention Rate %",
+        "type": "number"
+      },
+      {
+        "name": "monetization_impact",
+        "label": "Monetization Impact",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/progression",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Progression Modeling"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/progression",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "balance",
+    "title": "Balance Recommendations",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize balance recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "target_element",
+        "label": "Target Element",
+        "type": "text"
+      },
+      {
+        "name": "change_type",
+        "label": "Change Type",
+        "type": "select",
+        "options": [
+          "buff",
+          "nerf",
+          "adjustment"
+        ]
+      },
+      {
+        "name": "current_value",
+        "label": "Current Value",
+        "type": "number"
+      },
+      {
+        "name": "recommended_value",
+        "label": "Recommended Value",
+        "type": "number"
+      },
+      {
+        "name": "impact_score",
+        "label": "Impact Score",
+        "type": "number"
+      },
+      {
+        "name": "confidence",
+        "label": "Confidence %",
+        "type": "number"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "select",
+        "options": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/balance",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Balance Recommendations"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/balance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "power-creep-sentinel",
+    "title": "Power Creep Sentinel",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize power creep sentinel and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/power-creep-sentinel",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Power Creep Sentinel"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/power-creep-sentinel",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sentiment",
+    "title": "Sentiment Analysis",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize sentiment analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "source",
+        "label": "Source",
+        "type": "select",
+        "options": [
+          "Steam Reviews",
+          "Reddit",
+          "Discord",
+          "App Store",
+          "Twitter",
+          "YouTube",
+          "Official Forum",
+          "Twitch",
+          "Support",
+          "Survey"
+        ]
+      },
+      {
+        "name": "sentiment_score",
+        "label": "Sentiment Score",
+        "type": "number"
+      },
+      {
+        "name": "positive_pct",
+        "label": "Positive %",
+        "type": "number"
+      },
+      {
+        "name": "negative_pct",
+        "label": "Negative %",
+        "type": "number"
+      },
+      {
+        "name": "neutral_pct",
+        "label": "Neutral %",
+        "type": "number"
+      },
+      {
+        "name": "top_theme",
+        "label": "Top Theme",
+        "type": "text"
+      },
+      {
+        "name": "sample_size",
+        "label": "Sample Size",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/sentiment",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Sentiment Analysis"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/sentiment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "configurations",
+    "title": "Game Configurations",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize game configurations and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "config_type",
+        "label": "Config Type",
+        "type": "select",
+        "options": [
+          "gameplay",
+          "economy",
+          "competitive",
+          "social",
+          "ux",
+          "system",
+          "event",
+          "ai"
+        ]
+      },
+      {
+        "name": "config_key",
+        "label": "Config Key",
+        "type": "text"
+      },
+      {
+        "name": "config_value",
+        "label": "Config Value",
+        "type": "text"
+      },
+      {
+        "name": "environment",
+        "label": "Environment",
+        "type": "select",
+        "options": [
+          "development",
+          "staging",
+          "production"
+        ]
+      },
+      {
+        "name": "version",
+        "label": "Version",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/configurations",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Game Configurations"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/configurations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "player-profiles",
+    "title": "Player Profiles",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize player profiles and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "player_type",
+        "label": "Player Type",
+        "type": "text"
+      },
+      {
+        "name": "skill_level",
+        "label": "Skill Level",
+        "type": "select",
+        "options": [
+          "beginner",
+          "intermediate",
+          "advanced",
+          "expert"
+        ]
+      },
+      {
+        "name": "play_style",
+        "label": "Play Style",
+        "type": "text"
+      },
+      {
+        "name": "avg_session_time",
+        "label": "Avg Session (min)",
+        "type": "number"
+      },
+      {
+        "name": "preferred_difficulty",
+        "label": "Preferred Difficulty",
+        "type": "select",
+        "options": [
+          "easy",
+          "medium",
+          "hard",
+          "extreme"
+        ]
+      },
+      {
+        "name": "spending_tier",
+        "label": "Spending Tier",
+        "type": "select",
+        "options": [
+          "free",
+          "mid-tier",
+          "premium",
+          "whale"
+        ]
+      },
+      {
+        "name": "retention_risk",
+        "label": "Retention Risk",
+        "type": "select",
+        "options": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      {
+        "name": "lifetime_value",
+        "label": "Lifetime Value ($)",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/player-profiles",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Player Profiles"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/player-profiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scenarios",
+    "title": "Test Scenarios",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize test scenarios and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "scenario_type",
+        "label": "Scenario Type",
+        "type": "select",
+        "options": [
+          "combat",
+          "economy",
+          "multiplayer",
+          "onboarding",
+          "difficulty",
+          "monetization",
+          "anti-cheat",
+          "progression",
+          "balance",
+          "social",
+          "competitive",
+          "content",
+          "technical"
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "preconditions",
+        "label": "Preconditions",
+        "type": "textarea"
+      },
+      {
+        "name": "expected_outcome",
+        "label": "Expected Outcome",
+        "type": "textarea"
+      },
+      {
+        "name": "ai_player_count",
+        "label": "AI Player Count",
+        "type": "number"
+      },
+      {
+        "name": "duration_minutes",
+        "label": "Duration (min)",
+        "type": "number"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "select",
+        "options": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/scenarios",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Test Scenarios"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/scenarios",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "balance-rules",
+    "title": "Balance Rules",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize balance rules and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "rule_type",
+        "label": "Rule Type",
+        "type": "select",
+        "options": [
+          "win-rate",
+          "pick-rate",
+          "damage",
+          "healing",
+          "economy",
+          "progression",
+          "combat",
+          "pacing",
+          "fairness",
+          "engagement",
+          "difficulty",
+          "retention"
+        ]
+      },
+      {
+        "name": "target_metric",
+        "label": "Target Metric",
+        "type": "text"
+      },
+      {
+        "name": "threshold_min",
+        "label": "Threshold Min",
+        "type": "number"
+      },
+      {
+        "name": "threshold_max",
+        "label": "Threshold Max",
+        "type": "number"
+      },
+      {
+        "name": "action_on_breach",
+        "label": "Action on Breach",
+        "type": "text"
+      },
+      {
+        "name": "auto_apply",
+        "label": "Auto Apply",
+        "type": "select",
+        "options": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "select",
+        "options": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/balance-rules",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Balance Rules"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/balance-rules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "game-items",
+    "title": "Game Items",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize game items and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "item_type",
+        "label": "Item Type",
+        "type": "select",
+        "options": [
+          "weapon",
+          "armor",
+          "consumable",
+          "material",
+          "equipment",
+          "tool",
+          "attachment",
+          "cosmetic",
+          "accessory"
+        ]
+      },
+      {
+        "name": "rarity",
+        "label": "Rarity",
+        "type": "select",
+        "options": [
+          "common",
+          "uncommon",
+          "rare",
+          "epic",
+          "legendary"
+        ]
+      },
+      {
+        "name": "base_power",
+        "label": "Base Power",
+        "type": "number"
+      },
+      {
+        "name": "cost",
+        "label": "Cost",
+        "type": "number"
+      },
+      {
+        "name": "drop_rate",
+        "label": "Drop Rate",
+        "type": "number"
+      },
+      {
+        "name": "usage_rate",
+        "label": "Usage Rate %",
+        "type": "number"
+      },
+      {
+        "name": "win_rate_impact",
+        "label": "Win Rate Impact",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/game-items",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Game Items"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/game-items",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sessions",
+    "title": "Session History",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize session history and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "game_title",
+        "label": "Game Title",
+        "type": "text"
+      },
+      {
+        "name": "session_type",
+        "label": "Session Type",
+        "type": "select",
+        "options": [
+          "automated",
+          "stress",
+          "simulation",
+          "balance",
+          "onboarding",
+          "combat",
+          "security",
+          "difficulty",
+          "event",
+          "matchmaking",
+          "progression",
+          "pvp",
+          "seasonal",
+          "content",
+          "regression"
+        ]
+      },
+      {
+        "name": "player_count",
+        "label": "Player Count",
+        "type": "number"
+      },
+      {
+        "name": "ai_player_count",
+        "label": "AI Player Count",
+        "type": "number"
+      },
+      {
+        "name": "avg_score",
+        "label": "Avg Score",
+        "type": "number"
+      },
+      {
+        "name": "completion_rate",
+        "label": "Completion Rate %",
+        "type": "number"
+      },
+      {
+        "name": "issues_found",
+        "label": "Issues Found",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "/sessions",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Session History"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/sessions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "balance-recommendations-view",
+    "title": "Balance recommendations view",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize balance recommendations view and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "balance-recommendations-view",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "Balance recommendations view"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/balance-recommendations-view",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictions",
+    "title": "Predictions",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize predictions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "ai-predictions",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "Predictions"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/predictions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ab-patches",
+    "title": "Ab patches",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize ab patches and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "ab-patches",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "Ab patches"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/ab-patches",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-playtesting-bots-that-play-auton",
+    "title": "agentic playtesting bots that play auton",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize agentic playtesting bots that play auton and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-agentic-playtesting-bots-that-play-auton",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "agentic playtesting bots that play auton"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/agentic-playtesting-bots-that-play-auton",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "esports-meta-predictor-recommending-pree",
+    "title": "esports meta predictor recommending pree",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize esports meta predictor recommending pree and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-esports-meta-predictor-recommending-pree",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "esports meta predictor recommending pree"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/esports-meta-predictor-recommending-pree",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cohort-aware-balance-changes-targeting-h",
+    "title": "cohort aware balance changes targeting h",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize cohort aware balance changes targeting h and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-cohort-aware-balance-changes-targeting-h",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "cohort aware balance changes targeting h"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/cohort-aware-balance-changes-targeting-h",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rollback-analysis-tracking-how-balance-c",
+    "title": "rollback analysis tracking how balance c",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize rollback analysis tracking how balance c and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-rollback-analysis-tracking-how-balance-c",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "rollback analysis tracking how balance c"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/rollback-analysis-tracking-how-balance-c",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cross-game-balance-learning-from-dotalea",
+    "title": "cross game balance learning from dotalea",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize cross game balance learning from dotalea and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-cross-game-balance-learning-from-dotalea",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "cross game balance learning from dotalea"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/cross-game-balance-learning-from-dotalea",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "voice-video-sentiment-from-twitchyoutube",
+    "title": "voice video sentiment from twitchyoutube",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize voice video sentiment from twitchyoutube and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "cf-voice-video-sentiment-from-twitchyoutube",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "voice video sentiment from twitchyoutube"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/voice-video-sentiment-from-twitchyoutube",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "win-rate-predictor-for-post",
+    "title": "win rate predictor for post",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize win rate predictor for post and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-win-rate-predictor-for-post",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "win rate predictor for post"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/win-rate-predictor-for-post",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "player-retention-intervention-ai",
+    "title": "player retention intervention ai",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize player retention intervention ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-player-retention-intervention-ai",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "player retention intervention ai"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/player-retention-intervention-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "balance-simulation-monte-carlo-endpoi",
+    "title": "balance simulation monte carlo endpoi",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize balance simulation monte carlo endpoi and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-balance-simulation-monte-carlo-endpoi",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "balance simulation monte carlo endpoi"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/balance-simulation-monte-carlo-endpoi",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "automated-patch-note-generator",
+    "title": "automated patch note generator",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize automated patch note generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-automated-patch-note-generator",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "automated patch note generator"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/automated-patch-note-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-dispatchers-for-live-patch",
+    "title": "webhook dispatchers for live patch",
+    "group": "Game balancing playtesting agent",
+    "description": "Prepare webhook dispatchers for live patch requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-webhook-dispatchers-for-live-patch",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "webhook dispatchers for live patch"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/webhook-dispatchers-for-live-patch",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "surveyfocus-group-collection-beyond-r",
+    "title": "surveyfocus group collection beyond r",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize surveyfocus group collection beyond r and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-surveyfocus-group-collection-beyond-r",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "surveyfocus group collection beyond r"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/surveyfocus-group-collection-beyond-r",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "public-patch-notes-site",
+    "title": "public patch notes site",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize public patch notes site and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-public-patch-notes-site",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "public patch notes site"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/public-patch-notes-site",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-websocket-telemetry-streami",
+    "title": "real time websocket telemetry streami",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize real time websocket telemetry streami and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-real-time-websocket-telemetry-streami",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "real time websocket telemetry streami"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/real-time-websocket-telemetry-streami",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-tenant-studio-isolation",
+    "title": "multi tenant studio isolation",
+    "group": "Game balancing playtesting agent",
+    "description": "Organize multi tenant studio isolation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGameBalancingPlaytestingAgent",
+        "path": "gap-no-multi-tenant-studio-isolation",
+        "source": "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+        "kind": "route",
+        "label": "multi tenant studio isolation"
+      }
+    ],
+    "owner": "AIGameBalancingPlaytestingAgent",
+    "alternatives": [],
+    "path": "/features/multi-tenant-studio-isolation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris work",
+    "group": "Tetris",
+    "description": "Organize tetris work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "tetris",
+        "path": "tetris",
+        "source": "/Volumes/external/projects/tetris",
+        "kind": "source-workflow",
+        "label": "Tetris work"
+      }
+    ],
+    "owner": "tetris",
+    "alternatives": [],
+    "path": "/features/tetris",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tetris-game",
+    "title": "Tetris game work",
+    "group": "Tetris game",
+    "description": "Organize tetris game work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "tetris-game",
+        "path": "tetris-game",
+        "source": "/Volumes/external/projects/tetris-game",
+        "kind": "source-workflow",
+        "label": "Tetris game work"
+      }
+    ],
+    "owner": "tetris-game",
+    "alternatives": [],
+    "path": "/features/tetris-game",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

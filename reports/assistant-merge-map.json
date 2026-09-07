@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "training",
+      "performance",
+      "strategy",
+      "scouting",
+      "training-plan",
+      "highlight-clip-suggest",
+      "wellness-log",
+      "tournament-brief",
+      "sponsorship-match",
+      "live-stream-status",
+      "playtests",
+      "difficulty",
+      "economy",
+      "progression",
+      "power-creep-sentinel",
+      "player-retention-intervention-ai",
+      "automated-patch-note-generator",
+      "tetris",
+      "tetris-game"
+    ],
+    "ai": true,
+    "representativeId": "training",
+    "description": "One assistant for 19 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "training",
+        "title": "Training",
+        "originalPath": "/features/training"
+      },
+      {
+        "id": "performance",
+        "title": "Performance",
+        "originalPath": "/features/performance"
+      },
+      {
+        "id": "strategy",
+        "title": "Strategy",
+        "originalPath": "/features/strategy"
+      },
+      {
+        "id": "scouting",
+        "title": "Scouting",
+        "originalPath": "/features/scouting"
+      },
+      {
+        "id": "training-plan",
+        "title": "Training plan",
+        "originalPath": "/features/training-plan"
+      },
+      {
+        "id": "highlight-clip-suggest",
+        "title": "Highlight clip suggest",
+        "originalPath": "/features/highlight-clip-suggest"
+      },
+      {
+        "id": "wellness-log",
+        "title": "Wellness log",
+        "originalPath": "/features/wellness-log"
+      },
+      {
+        "id": "tournament-brief",
+        "title": "Tournament brief",
+        "originalPath": "/features/tournament-brief"
+      },
+      {
+        "id": "sponsorship-match",
+        "title": "Sponsorship match",
+        "originalPath": "/features/sponsorship-match"
+      },
+      {
+        "id": "live-stream-status",
+        "title": "Live stream status",
+        "originalPath": "/features/live-stream-status"
+      },
+      {
+        "id": "playtests",
+        "title": "AI Playtesting",
+        "originalPath": "/features/playtests"
+      },
+      {
+        "id": "difficulty",
+        "title": "Difficulty Curves",
+        "originalPath": "/features/difficulty"
+      },
+      {
+        "id": "economy",
+        "title": "Economy Tuning",
+        "originalPath": "/features/economy"
+      },
+      {
+        "id": "progression",
+        "title": "Progression Modeling",
+        "originalPath": "/features/progression"
+      },
+      {
+        "id": "power-creep-sentinel",
+        "title": "Power Creep Sentinel",
+        "originalPath": "/features/power-creep-sentinel"
+      },
+      {
+        "id": "player-retention-intervention-ai",
+        "title": "player retention intervention ai",
+        "originalPath": "/features/player-retention-intervention-ai"
+      },
+      {
+        "id": "automated-patch-note-generator",
+        "title": "automated patch note generator",
+        "originalPath": "/features/automated-patch-note-generator"
+      },
+      {
+        "id": "tetris",
+        "title": "Tetris work",
+        "originalPath": "/features/tetris"
+      },
+      {
+        "id": "tetris-game",
+        "title": "Tetris game work",
+        "originalPath": "/features/tetris-game"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "prediction",
+      "meta-analysis",
+      "betting-insights",
+      "performance-optimization-advisor-analyzi",
+      "exploits",
+      "balance",
+      "balance-recommendations-view",
+      "predictions",
+      "esports-meta-predictor-recommending-pree",
+      "rollback-analysis-tracking-how-balance-c",
+      "win-rate-predictor-for-post"
+    ],
+    "ai": true,
+    "representativeId": "prediction",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "prediction",
+        "title": "Prediction",
+        "originalPath": "/features/prediction"
+      },
+      {
+        "id": "meta-analysis",
+        "title": "Meta analysis",
+        "originalPath": "/features/meta-analysis"
+      },
+      {
+        "id": "betting-insights",
+        "title": "Betting insights",
+        "originalPath": "/features/betting-insights"
+      },
+      {
+        "id": "performance-optimization-advisor-analyzi",
+        "title": "performance optimization advisor analyzi",
+        "originalPath": "/features/performance-optimization-advisor-analyzi"
+      },
+      {
+        "id": "exploits",
+        "title": "Exploit Detection",
+        "originalPath": "/features/exploits"
+      },
+      {
+        "id": "balance",
+        "title": "Balance Recommendations",
+        "originalPath": "/features/balance"
+      },
+      {
+        "id": "balance-recommendations-view",
+        "title": "Balance recommendations view",
+        "originalPath": "/features/balance-recommendations-view"
+      },
+      {
+        "id": "predictions",
+        "title": "Predictions",
+        "originalPath": "/features/predictions"
+      },
+      {
+        "id": "esports-meta-predictor-recommending-pree",
+        "title": "esports meta predictor recommending pree",
+        "originalPath": "/features/esports-meta-predictor-recommending-pree"
+      },
+      {
+        "id": "rollback-analysis-tracking-how-balance-c",
+        "title": "rollback analysis tracking how balance c",
+        "originalPath": "/features/rollback-analysis-tracking-how-balance-c"
+      },
+      {
+        "id": "win-rate-predictor-for-post",
+        "title": "win rate predictor for post",
+        "originalPath": "/features/win-rate-predictor-for-post"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "injury-risk-assess"
+    ],
+    "ai": true,
+    "representativeId": "injury-risk-assess",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "injury-risk-assess",
+        "title": "Injury risk assess",
+        "originalPath": "/features/injury-risk-assess"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "animation-retargeting-ai-reusing-animati"
+    ],
+    "ai": true,
+    "representativeId": "animation-retargeting-ai-reusing-animati",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "animation-retargeting-ai-reusing-animati",
+        "title": "animation retargeting ai reusing animati",
+        "originalPath": "/features/animation-retargeting-ai-reusing-animati"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "sentiment"
+    ],
+    "ai": true,
+    "representativeId": "sentiment",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "sentiment",
+        "title": "Sentiment Analysis",
+        "originalPath": "/features/sentiment"
+      }
+    ]
+  }
+]

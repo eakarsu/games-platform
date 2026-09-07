@@ -1,0 +1,8 @@
+{
+  "id": "games-platform",
+  "port": 46052,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:54.008Z"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AIBoardGameTTRPGGameMaster",
+    "name": "Board game ttrpggame master",
+    "sourceProject": "AIBoardGameTTRPGGameMaster",
+    "services": []
+  },
+  {
+    "id": "AIEsportsPerformanceAnalyzer",
+    "name": "Esports performance analyzer",
+    "sourceProject": "AIEsportsPerformanceAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AIGameAssetGenerator",
+    "name": "Game asset generator",
+    "sourceProject": "AIGameAssetGenerator",
+    "services": []
+  },
+  {
+    "id": "AIGameBalancingPlaytestingAgent",
+    "name": "Game balancing playtesting agent",
+    "sourceProject": "AIGameBalancingPlaytestingAgent",
+    "services": []
+  },
+  {
+    "id": "tetris",
+    "name": "Tetris",
+    "sourceProject": "tetris",
+    "services": []
+  },
+  {
+    "id": "tetris-game",
+    "name": "Tetris game",
+    "sourceProject": "tetris-game",
+    "services": []
+  }
+]

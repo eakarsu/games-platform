@@ -1,0 +1,27 @@
+{
+  "id": "games-platform",
+  "title": "Games & interactive entertainment",
+  "buyer": "Game creators and players",
+  "sourceCount": 6,
+  "sources": [
+    "AIBoardGameTTRPGGameMaster",
+    "AIEsportsPerformanceAnalyzer",
+    "AIGameAssetGenerator",
+    "AIGameBalancingPlaytestingAgent",
+    "tetris",
+    "tetris-game"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46052,
+  "productName": "Games Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIBoardGameTTRPGGameMaster",
+    "/Volumes/external/projects/AIEsportsPerformanceAnalyzer",
+    "/Volumes/external/projects/AIGameAssetGenerator",
+    "/Volumes/external/projects/AIGameBalancingPlaytestingAgent",
+    "/Volumes/external/projects/tetris",
+    "/Volumes/external/projects/tetris-game"
+  ]
+}

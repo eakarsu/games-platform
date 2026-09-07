@@ -1,0 +1,9 @@
+{
+  "app": "games-platform",
+  "features": 90,
+  "sourceApps": 6,
+  "calculatorEngines": 0,
+  "registryHash": "0370f85cfbe6d9c8af8b21c8b18a22d5417634e79fe64367cb3637f2c9457696",
+  "builtAt": "2026-09-07T22:06:08.232Z",
+  "status": "built"
+}
