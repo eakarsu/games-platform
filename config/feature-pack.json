@@ -1,0 +1,28 @@
+{
+  "insights": [
+    {
+      "id": "insight-players",
+      "feature": "players",
+      "title": "Players insight",
+      "focus": "Summarize Players records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-matches",
+      "feature": "matches",
+      "title": "Matches insight",
+      "focus": "Summarize Matches records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-tournaments",
+      "feature": "tournaments",
+      "title": "Tournaments insight",
+      "focus": "Summarize Tournaments records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks, including unassigned work."
+    }
+  ]
+}
